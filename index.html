@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>
+          Contact Details
+      </h2>
+
+      <P>
+          Full Name: <strong>Emi-ife Faluyi</strong>
+      </P>
+
+      <p>
+          Address: <strong>3<sup>A</sup> Patchworth close, Agungi, Lekki, Lagos State</strong>
+      </p>
+
+      <p>
+          Phone: <i>08061305111</i>
+      </p>
+
+      <p>
+          Email: <a target="http://www.gmail.com" href="mailto:emiifefaluyi@gmail.com"> emiifefaluyi@gmail.com</a></p>
+      </p>
+  
+      <p>
+          Behance: <a target="_blank" href="http://behance.net/emiifefaluyi">behance</a> <hr />
+      </p>
+
+      <form action="form.php" method="post">
+          <fieldset>
+              <legend>Contact Me</legend>
+
+              <label class="label-group" for="Fname">First Name</label> <br />
+              <input type="text" name="Full Name" id="Fname" placeholder="Full Name" required> <br /><br />
+  
+              <label class="label-group" for="Phone Number">Phone Number <br />
+
+              <Select> id="Dialing codes"> name="Dialing codes" placeholder="+1" required> <br /><br />
+
+                      <option value="Canada">+1 Canada</option>
+                  
+                      <option value="Denmark">+45 Denmark</option>
+
+                      <option value="Nigeria">+234 Nigeria</option>
+
+                      <option value="United Kingdom">+44 United Kingdom</option>
+
+                      <option value="United States">+1 United States</option>
+                  
+
+              </Select>
+
+                  <input type="text" name="Phone" id="Phone" placeholder="Phone Number" required> <br /><br />
+
+                  <label class="label-group" for="Country">Country</label> <br />
+                  <select id="Country" name="Country" placeholder="Country" required>
+
+                  <option value="Canada">Canada</option>
+
+                  <option value="Denmark">Denmark</option>
+
+                  <option value="Nigeria">Nigeria</option>
+
+                  <option value="United Kingdom">United Kingdom</option>
+
+                  <option value="United States">United States</option>
+
+
+
+              </Select> <br /> <br />
+        
+              <label class="label-group" for="email">Email Address</label> <br />
+              <input type="text" name="E-mail" id="E-mail" placeholder="E-mail"required> <br /><br />
+
+              <label class="label-group" for="Message">Message:</label>
+
+              <div><textarea id="textarea" name="Message" rows="5" cols="20"> </textarea> </div>
+          </fieldset>
+      
+          <input type="Submit" value="Submit" />
+      </form>
+
+  
+
+
+  </div>
+  </body>
+</html>
